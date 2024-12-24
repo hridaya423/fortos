@@ -33,34 +33,14 @@ const Dock = () => {
 
   const [dockIcons, setDockIcons] = useState([
     {
-      name: "BattleFinder",
-      icon: battlefinder,
-      onClick: () => setFinderVisible((prev) => !prev),
-    },
-    {
-      name: "Reboot Radar",
-      icon: rebootradar,
-      onClick: () => setRebootRadarVisible((prev) => !prev),
-    },
-    {
-      name: "Sniper Solver",
-      icon: snipersolver,
-      onClick: () => setSniperSolverVisible((prev) => !prev),
-    },
-    {
-      name: "Link Llama",
-      icon: linkllama,
-      onClick: () => setLinkLlamaVisible((prev) => !prev),
-    },
-    {
-      name: "Rift Code",
-      icon: riftcode,
-      onClick: () => setRiftCodeVisible((prev) => !prev),
-    },
-    {
       name: "Loot Lake Links",
       icon: lootlakelinks,
       onClick: () => setLootLakeLinksVisible((prev) => !prev),
+    },
+    {
+      name: "BattleFinder",
+      icon: battlefinder,
+      onClick: () => setFinderVisible((prev) => !prev),
     },
     {
       name: "Victory Glitch",
@@ -76,6 +56,26 @@ const Dock = () => {
       name: "BattleShell",
       icon: battleshell,
       onClick: () => setBattleShellVisible((prev) => !prev),
+    },
+    {
+      name: "Sniper Solver",
+      icon: snipersolver,
+      onClick: () => setSniperSolverVisible((prev) => !prev),
+    },
+    {
+      name: "Reboot Radar",
+      icon: rebootradar,
+      onClick: () => setRebootRadarVisible((prev) => !prev),
+    },
+    {
+      name: "Link Llama",
+      icon: linkllama,
+      onClick: () => setLinkLlamaVisible((prev) => !prev),
+    },
+    {
+      name: "Rift Code",
+      icon: riftcode,
+      onClick: () => setRiftCodeVisible((prev) => !prev),
     },
   ]);
 
