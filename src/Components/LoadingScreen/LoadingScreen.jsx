@@ -3,6 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import ninjameme from "../../assets/videos/ninja-meme.mp4";
 import backgroundAudio from "../../assets/sound/lowtaperfade.m4a";
 import backgroundMap from "../../assets/images/background.png";
+import battlebus from "../../assets/images/battlebus.png"
 import "./LoadingScreen.css";
 
 const LoadingScreen = ({ setLoaded }) => {
@@ -103,7 +104,7 @@ const LoadingScreen = ({ setLoaded }) => {
 
 <div className="background-elements">
         <img 
-          src="src/assets/images/battlebus.png" 
+          src={battlebus}
           alt="Battle Bus" 
           className="battle-bus-gif"
         />
