@@ -1,0 +1,76 @@
+.SniperSolver {
+  position: absolute;
+  width: 800px;
+  height: 700px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  overflow: hidden;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+.SniperSolver--maximized {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.SniperSolver-header {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: move;
+}
+
+.SniperSolver-window-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.SniperSolver-control {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.SniperSolver-control--close {
+  background-color: #ff3b30;
+}
+
+.SniperSolver-control--minimize {
+  background-color: #ffcc00;
+}
+
+.SniperSolver-control--maximize {
+  background-color: #28cd41;
+}
+
+.SniperSolver-title {
+  font-size: 15px;
+}
+
+.SniperSolver-refresh {
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.SniperSolver-refresh:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.SniperSolver-content {
+  height: 100.2%;
+  overflow: auto;
+}

@@ -1,0 +1,154 @@
+.fortnite-browser {
+  position: absolute;
+  background-color: #1a2541; 
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 50px rgba(0, 255, 255, 0.2);
+  border: 3px solid #7ed6df;
+}
+
+.fortnite-browser--maximized {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  border-radius: 0;
+}
+
+.browser-header {
+  background-color: #2c3e50;
+  color: #55efc4; 
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: move;
+  background-image: linear-gradient(to right, #2c3e50, #34495e);
+}
+
+.browser-window-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.browser-control {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.browser-control:hover {
+  transform: scale(1.2);
+}
+
+.browser-control--close {
+  background-color: #ff3838; 
+}
+
+.browser-control--minimize {
+  background-color: #ffc107; 
+}
+
+.browser-control--maximize {
+  background-color: #4caf50;
+}
+
+.browser-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.browser-toolbar {
+  background-color: #2980b9;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, #2980b9, #3498db);
+}
+
+.browser-search {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 5px 10px;
+  flex-grow: 1;
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.browser-search-input {
+  background: none;
+  border: none;
+  color: #55efc4;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+}
+
+.browser-search-input::placeholder {
+  color: rgba(85, 239, 196, 0.7);
+}
+
+.browser-search-button,
+.browser-refresh {
+  background: none;
+  border: none;
+  color: #55efc4;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.browser-search-button:hover,
+.browser-refresh:hover {
+  color: white;
+}
+
+.browser-content {
+  height: calc(100% - 90px);
+  position: relative;
+  background-color: #1a2541;
+}
+
+.browser-content iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.browser-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #55efc4;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a2541, #2c3e50);
+}
+
+.browser-error-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #7ed6df;
+  color: #2c3e50;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 15px;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.browser-error-button:hover {
+  background-color: #55efc4;
+  transform: scale(1.05);
+}

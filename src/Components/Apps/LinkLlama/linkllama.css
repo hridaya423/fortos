@@ -1,0 +1,76 @@
+.LinkLlama {
+  position: absolute;
+  width: 800px;
+  height: 700px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  overflow: hidden;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+.LinkLlama--maximized {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.LinkLlama-header {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: move;
+}
+
+.LinkLlama-window-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.LinkLlama-control {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.LinkLlama-control--close {
+  background-color: #ff3b30;
+}
+
+.LinkLlama-control--minimize {
+  background-color: #ffcc00;
+}
+
+.LinkLlama-control--maximize {
+  background-color: #28cd41;
+}
+
+.LinkLlama-title {
+  font-size: 15px;
+}
+
+.LinkLlama-refresh {
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.LinkLlama-refresh:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.LinkLlama-content {
+  height: 100.2%;
+  overflow: auto;
+}

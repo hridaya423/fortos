@@ -1,0 +1,76 @@
+.StormForecast {
+  position: absolute;
+  width: 800px;
+  height: 700px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  overflow: hidden;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+.StormForecast--maximized {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.StormForecast-header {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: move;
+}
+
+.StormForecast-window-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.StormForecast-control {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.StormForecast-control--close {
+  background-color: #ff3b30;
+}
+
+.StormForecast-control--minimize {
+  background-color: #ffcc00;
+}
+
+.StormForecast-control--maximize {
+  background-color: #28cd41;
+}
+
+.StormForecast-title {
+  font-size: 15px;
+}
+
+.StormForecast-refresh {
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.StormForecast-refresh:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.StormForecast-content {
+  height: 100.2%;
+  overflow: auto;
+}

@@ -1,0 +1,8 @@
+.desktop {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  position: relative;
+  z-index: 1;
+}
+
