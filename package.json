@@ -14,7 +14,7 @@
     "@tsparticles/slim": "^3.9.1",
     "lucide-react": "^0.562.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.1",
+    "react-dom": "^19.2.3",
     "react-draggable": "^4.5.0",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.9.1"
